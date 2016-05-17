@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <meta content="telephone=no" name="format-detection">
+    <title>HTML Academy: Глейси</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<!--<p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    -->
+    <div class="site-wrapper-feedback">
+        <header class="main-header clearfix">
+            <div class="container">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" width="154" height="64" alt="Глейси">
+                    </a>
+                </div>
+
+                <nav class="main-navigation">
+                    <ul class="main-navigation__list">
+                        <li class="main-navigation__item">
+                            <a href="catalog.html" class="main-navigation__link">Каталог</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu__item">
+                                    <a href="catalog.html" class="sub-menu__link product-new">Новинки</a>
+                                </li>
+                                <li class="sub-menu__item">
+                                    <a href="catalog.html" class="sub-menu__link">Сливочное</a>
+                                </li>
+                                <li class="sub-menu__item">
+                                    <a href="catalog.html" class="sub-menu__link">Щербеты</a>
+                                </li>
+                                <li class="sub-menu__item">
+                                    <a href="catalog.html" class="sub-menu__link">Фруктовый лед</a>
+                                </li>
+                                <li class="sub-menu__item">
+                                    <a href="catalog.html" class="sub-menu__link">Мелорин</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#" class="main-navigation__link">Доставка и оплата</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#" class="main-navigation__link">О Компании</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-right">
+                    <div class="header-right-top">
+                        <div class="header-search">
+                            <div class="icon icon-search"></div>
+                            <div class="search-modal">
+                                <form name="search">
+                                    <input type="text" placeholder="Что ищем?">
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="header-login">
+                            <a class="icon icon-enter">Вход</a>
+                            <div class="header-login-form">
+                                <form name="autorization" method="post" class="form-autorization">
+                                    <div class="form-enter-email ">
+                                        <input type="email" placeholder="Электронная почта">
+                                    </div>
+                                    <div class="form-enter-password">
+                                        <input type="password" placeholder="Пароль">
+                                    </div>
+                                    <div class="form-enter-bottom clearfix">
+                                        <div class="form-enter-submit">
+                                            <input type="submit" value="Войти" class="btn">
+                                        </div>
+                                        <div class="form-enter-link">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Забыли пароль?</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Новая регистрация</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="header-cart">
+                            <a href="#" class="icon icon-cart">Пусто</a>
+                        </div>
+                    </div>
+
+                    <div class="header-right-bottom">
+                        <p class="header-time">С 10 до 20, ежедневно</p>
+                        <p class="header-phone">8 812 450-25-25</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="main ">
+            <div class="container">
+                <div class="feedback-content">
+                    <h2>Мы обязательно вам ответим!</h2>
+                    <form name="feedback-form" class="feedback-form">
+                        <div class="feedback-block form-feedback-name">
+                            <input type="text" placeholder="Как вас зовут?" name="name" id="feedback-name">
+                            <label for="feedback-name">Как вас зовут?</label>
+                        </div>
+
+                        <div class=" feedback-block form-feedback-email">
+                            <input type="text" placeholder="Ваша почта для ответа?" name="email" id="feedback-email">
+                            <label for="feedback-email">Ваша почта для ответа?</label>
+                        </div>
+
+                        <div class="feedback-block form-feedback-text">
+                            <textarea placeholder="Напишите что-нибудь..." id="feedback-textarea"></textarea>
+                            <label for="feedback-textarea">Напишите что-нибудь...?</label>
+                        </div>
+
+                        <button class="btn feedback-content-send">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <div class="contacts-main clearfix">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=nLfLHXre-q6Z6iLkaUOHzjY74zfPQEkw&width=100%&height=430&lang=ru_RU&sourceType=constructor&scroll=true"></script>
+            <div class="container clearfix">
+                <div class="contacts">
+                    <p>Адрес главного офиса и офлайн магазина:</p>
+                    <p class="contact-bold">ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
+                    <p>Для заказов по телефону:</p>
+                    <p class="contact-bold contacts-phone">8 812 450-25-25</p>
+                    <p>(с 10 до 20 ежедневно)</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="main-footer clearfix">
+            <div class="container ">
+                <div class="footer-social">
+                    <a class="social-btn social-btn-tw" href="#">
+                        <span class="social-icon"></span>
+                    </a>
+                    <a class="social-btn social-btn-inst" href="#">
+                        <span class="social-icon"></span>
+                    </a>
+                    <a class="social-btn social-btn-fb" href="#">
+                        <span class="social-icon"></span>
+                    </a>
+                    <a class="social-btn social-btn-vk" href="#">
+                        <span class="social-icon"></span>
+                    </a>
+                </div>
+
+                <div class="footer-nav">
+                    <div class="footer-nav-left">
+                        <a href="#" class="heart">Для поставщиков</a>
+                        <a href="#">О производстве</a>
+                    </div>
+                    <div class="footer-nav-right">
+                        <a href="#">Наши документы</a>
+                        <a href="#">Экологические стандарты</a>
+                    </div>
+                </div>
+
+                <div class="footer-copyright">
+                    <a href="">
+                        <img src="img/htmlacademy-logo.png" width="108" height="38" alt="Htmlacademy">
+                    </a>
+                    <p>Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> © 2016</p>
+                </div>
+            </div>
+        </footer>
+        </div>
+
+</body>
+</html>
